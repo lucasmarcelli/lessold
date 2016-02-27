@@ -2,6 +2,10 @@ body{
 	background: #DAD0BE;
 }
 
+ul{
+	list-style: none;
+}
+
 .content-box{
 	background-color: #638BD0;
 	border-radius: 10px;
