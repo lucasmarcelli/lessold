@@ -37,10 +37,6 @@ body{
 	color: #FFE9C0;
 }
 
-.list-group-item.active{
-	background-color: #432CAC;
-}
-
 .post-items{
 	background-color: #638BD0;
 	border: none;
