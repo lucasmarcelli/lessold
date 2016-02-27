@@ -1,0 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Lucas' Blog and Website
+email: lucas@marcelli.ca
+description: Sometimes I have a point.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "marcelli.ca" # the base hostname & protocol for your site
+twitter_username: lucasmarcelli
+github_username:  lucasmarcelli
+
+# Build settings
+markdown: kramdown

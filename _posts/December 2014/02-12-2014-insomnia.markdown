@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Couldn't really sleep last night"
+subtitle: "Better mess with my website. That'll make me sleep."
+header-img: "zzz.jpg"
+tag: code
+collection: "Coding and Technology"
+collection-url: "/coding"
+credit: "https://www.flickr.com/photos/rejik/"
+---
+
+I really can not get to sleep. 
+
+I'm writing this at 3:47 AM, though it probably wont be published until later. I'm not tired. I am just sitting here typing instead of in bed with my cat.
+
+I didn't waste these hours at least. I did some website work! Yay! (also I played a lot of counter strike)
+
+It started when I noticed load times going higher on the site after posting my previous post. I knew it was the first time my droplet at Digital Ocean needed to actually handle a bit of traffic, so I went to go check on it and looked at the graphs:
+
+<div class="img-center">
+	<img src="/img/2014Dec/graph.png">
+	<p>Obligatory /r/dataisbeautiful</p>
+</div>
+
+It really intrigued me to see the spikes in the data. I wanted to know more, but the graphs don't show anything more detailed than bandwidth. I decided to set up the blog with Google analytics to track my data!
+
+I set off on the quest which would surely challenge my coding abili---
+
+Wait... all I need to do is add this piece of javascript to my default.html? Man I love Jekyll layouts. 
+
+This feels too easy. Is it really that easy?
+
+<div class="img-center">
+	<img src="/img/2014Dec/newgraph.png">
+	<p>Yes. Yes it is.</p>
+</div>
+
+Now I can see if people actually like my blog! Yay!
+
+Wait, is that *realtime* visit data? Wow Google, that's pretty awesome.  
