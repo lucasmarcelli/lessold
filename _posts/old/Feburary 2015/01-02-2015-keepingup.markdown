@@ -2,7 +2,7 @@
 layout: old-post
 title: "I'm Back!"
 subtitle: "Better Late Than Never...."
-category: nonsense
+category: life
 ---
 
 I set lots of goals for myself. Some are reasonable, others are not. I know which ones are reasonable when I set them and those are the ones I really strive for. One such goal is 10 blog posts per month, which with the completion of this one, I have managed to keep!

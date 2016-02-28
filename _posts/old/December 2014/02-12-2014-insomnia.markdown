@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: old-post
 title: "Couldn't really sleep last night"
 subtitle: "Better mess with my website. That'll make me sleep."
 category: coding

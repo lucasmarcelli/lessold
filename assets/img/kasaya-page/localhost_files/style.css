@@ -6,14 +6,6 @@ ul{
 	list-style: none;
 }
 
-a.project-items:hover{
-	background-color: #2655A5;
-}
-
-li.project-items:hover{
-	background-color: #2655A5;
-}
-
 a.light:hover {
 	background-color: #638BD0;
 }
@@ -28,34 +20,6 @@ a.dark:hover {
 
 li.dark:hover{
 	background-color: #638BD0;
-}
-
-.first{
-	display:inline-block;
-	width: 64%;
-}
-
-.second{
-	display:inline-block;
-	width: 30%;
-}
-
-.light h1 {
-	color: #8BACE3;
-	text-transform: capitalize;
-	text-align: right;
-	margin-bottom: auto;
-	margin-top: 0;
-	font-size: 18pt;
-}
-
-.dark h1 {
-	color: #2655A5;
-	text-transform: capitalize;
-	text-align: right;
-	margin-bottom: auto;
-	margin-top: 0;
-	font-size: 18pt;
 }
 
 .old-header{

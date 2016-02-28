@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: old-post
 title: "It's a new year"
 subtitle: "Let's talk about mental health."
 category: mental-health

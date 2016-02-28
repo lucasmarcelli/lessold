@@ -1,0 +1,25 @@
+---
+layout: post
+title: "New Layout, New Direction"
+subtitle: "Away we gooooooo....!"
+category: life
+---
+
+<p>
+	The hardest things to do is deciding that you have to stop something you have invested yourself into, for any reason. After a ton of deliberation and a fair amount of crazy happenings, I decided that Graduate Studies and research in an academic setting is not for me. I really enjoyed the experience but choosing to cut my losses and move forward is the best path for me.
+</p>
+
+<p>
+	A year ago I wrote about how scary it is to change plans, because I was taking a small sabbatical between ending my undergraduate and starting my graduate. Now, I've suddenly plunged into the job market and it's pretty intimidating, but I'm incredibly hopeful and ready to tackle any new challenges that come my way.
+</p>
+
+<p>
+	So in that vein, I have decided to create a new website. I'm trying to become better at front-end development and my old website, while nice looking, was simply a modified theme. Everything on this new website was made by me to learn bootstrap and other CSS tricks!
+</p>
+
+<p>
+	So once again, join me on my quest to find myself or something.
+	<p class="img-text">
+		<img src="/assets/img/posts/march2016/adventure.gif" title="Come on grab your friends!">
+	</p>
+</p>

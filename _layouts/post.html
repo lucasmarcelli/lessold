@@ -8,14 +8,14 @@ layout: default
 {% endif %}
 <hr>
 
-<div class = "page-content">
+<div class = "page-content justify">
 
 	{{ content }}
 	
 	
 	<hr style="display:block;margin-left:0px;">
 
-	<i><p> This post was posted on {{ page.date | date: '%B %d, %Y' }}{% if page.category %} in the category {{ page.category | replace: "-", " "}}{% endif %}.</p>
+	<i><p> This post was added on {{ page.date | date: '%B %d, %Y' }}.</p>
 
 	<ul class="pager">
 	   	{% if page.previous.url %}
