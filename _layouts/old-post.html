@@ -1,0 +1,14 @@
+---
+layout: post
+---
+{% if page.category %}
+	{% assign x = page.category %}
+	{% capture y %}/{{ x }}/{% endcapture %}
+{% else %}
+	{% assign y = "/" %}
+{% endif %}
+<i><p> This post was posted before I launched my new site. I'm going through and formatting them for this, but there may be problems. Go see the <a href="http://old.marcelli.ca/{{ page.id | remove_first: y }}">original</a> if you'd like! </p></i>
+
+<hr class="old-header">
+
+{{ content }}

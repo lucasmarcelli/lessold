@@ -1,0 +1,35 @@
+---
+layout: old-post
+title: "Christmas Lights Suck"
+subtitle: "How is this still a problem?"
+category: rage
+---
+
+My various devices all inform me that it is 2014. In fact, it's almost 2015, and I'm almost 22 years old.
+
+In recent memory we've done some extraordinary things. In the last year alone we've: 
+
+
++ [Landed on a Comet](http://en.wikipedia.org/wiki/Rosetta_%28spacecraft%29)
++ [Developed a single molocule LED](http://www.sciencedaily.com/releases/2014/02/140203093521.htm)
++ [A robotic hand capable of touch was developed](http://www.technologyreview.com/news/524286/a-robotic-hand-this-time-with-feeling/)
++ [Took the deepest space photo ever of a galaxy cluster](http://www.jpl.nasa.gov/news/news.php?release=2014-007)
++ [Developed a robot dinosaur](http://www.kurzweilai.net/kaist-raptor-robot-runs-at-28-58-mph-faster-than-any-human)
++ [Developed an algorithim to track emotional state](http://www.sciencedaily.com/releases/2014/08/140821090524.htm)
++ [A baby was born after a womb transplant](http://www.bbc.com/news/health-29485996)
++ [Lots of other stuff](http://en.wikipedia.org/wiki/2014_in_science)
+
+Humanity is truly amazing. Only a hundred years ago, most of the technology we take for granted today would seem like magic to them. In fact, bring your iPhone or Android back to 2007, and people will think you are a wizard. Our techonolgy grows and changes at a truly astonishing rate, and our quality of life improves significantly with every new step forward.
+
+Bearing all this in mind, can someone *please* explain to me how this is still a problem that exists:
+
+<p class="img-text">
+	<img src="/assets/img/posts/old/img/2014Nov/stupidtree.jpg" title="Spot the kitty!">
+	Every year! Every single year!
+</p>
+
+*"It's not all bad,"* one might say, *"At least they make it so only part of the lights are off because one is burned out. You can find the dead one!"*
+
+I spent an hour trying to find the dead one, and I broke all my replacement bulbs in the search.
+
+I think 2015's goal plan should include Christmas lights that don't suck.

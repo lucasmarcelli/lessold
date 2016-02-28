@@ -1,0 +1,17 @@
+---
+layout: old-post
+title: "Hello World"
+subtitle: "So Cliche."
+category: nonsense
+---
+
+I've never really been into blogs. I certainly never thought I'd actually write one. Lately it has felt like it would probably be a good idea to put some of my thoughts into a format that I can keep and share. I guess that I'm doing this because I want to start having projects in my life again.
+
+The last few years have been crazy and tough and I never found time for me. Now I'm going to do the things that I want to do, and blog about whatever I feel like blogging about. 
+
+Join me on a quest to find myself or something.
+
+<p class="img-text">
+	<img src="/assets/img/posts/old/img/2014Nov/adventure.gif" title="Come on grab your friends!">
+	Finding myself isn't as cool as Adventure Time though.
+</p>

@@ -1,0 +1,34 @@
+---
+layout: old-post
+title: "I'm Back"
+subtitle: "Better Late Than Never...."
+category: nonsense
+---
+
+<p class="img-text">
+  <img src="/assets/img/posts/old/img/2015Aug/imback.gif" title="Shut up baby, I know it!">
+</p>
+
+Hoo boy. It's been a while. Feburary was not kind to me, then neither was March... and then it all went downhill from there.
+
+Then it all started getting better. And now it's pretty good, so why not start blogging again?
+
+Where to start? Here's some stuff I've done since I've been gone:
+
+
+- Made it to MGE in CS:GO! I'm a couple games from DMG :D
+- Got a dog. His name is Kobe. There will be pics, soon. 
+- Started my Grad thesis (tune in next time for a cool intro to it)
+- Became 100% financially independant from my parents (ps, being poor is *hard*)
+- Migrated this website to github-pages to avoid server costs (see above point about being poor)
+- Completed my undergrad:
+
+<p class="img-text">  
+	<img src="/assets/img/posts/old/img/2015Aug/grad.jpg" title="Money well spent.">
+ 	Pictured: Me holding >$100000
+</p>
+
+School is starting soon. I've had a pretty bummy summer to be honest, and I haven't actually registered for courses yet. I should do that tomorrow...
+
+Anyways, thanks for reading. Love you all <3.
+

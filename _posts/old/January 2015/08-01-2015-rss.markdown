@@ -1,0 +1,24 @@
+---
+layout: old-post
+title: "RSS is live"
+subtitle: "But it decided not to be easy."
+category: coding
+---
+
+I added an [RSS feed](/rss.xml) for this blog yesterday. 
+
+Adding RSS to jekyll blogs is supposed to be very easy. However, most people will publish their blogs with Github Pages, but I do it the old fashioned way with an nginx server. This led to some problems that I had to solve in an interesting way. 
+
+When I deploy my blog to nginx, it builds the blog remotely and serves it. I found a nice plugin to generate an `rss.xml` for me everytime it builds, but for some reason this didn't work on the remote server. I deduced it to be the fact that I need an `rss.xml` in the main tree of my files, but the plugin generates it under `_site.`
+
+So I wrote a couple lines into my deploment script:
+
+<script src="https://gist.github.com/lucasmarcelli/fceb6a1f9b6046d38e2e.js"></script>
+
+All this does is copy the generated one from `_site` to the main directory, so that the server could build the proper `rss.xml.` But it didn't work. It was getting an old version of the RSS. 
+
+Then today I realized how to fix it. 
+
+<script src="https://gist.github.com/lucasmarcelli/41defc40a5d7ca25d802.js"></script>
+
+The build command was builing it just fine, but what was happening is the plugin would build the rss.xml in `_site`, then jekyll would rebuild the one in `_site` out of the one I have in the main directory. This meant that I was essentially copying the same file back. I simply remove the file first, then build and it works like magic!

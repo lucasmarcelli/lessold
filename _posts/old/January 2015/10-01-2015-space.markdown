@@ -1,0 +1,48 @@
+---
+layout: old-post
+title: "Space is so cool"
+subtitle: "Seriously have you ever looked up at night?"
+category: science
+---
+
+I really like space. 
+
+Since I was little, my eyes have always been on the sky. There was a point in my life where I was on track to become an astronomer, but the math kicked my butt a bit too hard and my professional pursuits took a turn toward Computer Science.
+
+The Universe is an amazing place. It's a vast expanse of emptiness with pockets of brilliance spattered throughout. Have you ever seen the universe at its largest scale?
+
+<p class="img-text">
+	<img src="/assets/img/posts/old/img/2015Jan/cosmos.jpg" title="Wow.">
+	This is a simulation, obviously 
+</p>
+
+
+Superclusters of galaxies clump into tendrils, with giant expanses of space between. What you're looking at here is the structure of the universe simulated by using actual positions of galaxies. Each of those tendrils is billions of galaxies large. Galaxies are *huge,* spanning hundreds of billions of stars. The header on my main page is a good example of a galaxy:
+
+<p class="img-text">
+	<img src="/assets/img/posts/old/img/headers/home-bg.jpg" title="Oooooooooh">
+</p>
+
+Most of those bright lights are stars. Some of them are also galaxies, containing billions of stars. Others are globular clusters, which *only* have thousands to millions of stars. Our galaxy is called the Milky Way. It has 1 to 200 billion stars in it. We orbit one, called Sol. It's also known as the Sun.
+
+We have a small vantage point, which looks like this to the rest of the universe:
+
+<p class="img-text">
+	<img src="/assets/img/posts/old/img/2015Jan/dot.jpg">
+	Pale Blue Dot 
+</p>
+
+How small exactly? We pointed the Hubble Space Telescope at a seemingly empty part of the sky for months and months and months. This portion of the sky is about one tenth the size of the full Moon. What we saw was completely unprecedented and is called the Hubble Ultra Deep Field.
+
+<p class="img-text">
+	<img src="/assets/img/posts/old/img/2015Jan/ultra.jpg">
+	Whoaaaaaaaaaaaaaaaaaaaaa
+</p>
+
+In that small, black space, this many galaxies can be seen. There is only two or three non galaxies in that picture. These galaxies are over 13.4 billion light years away, which means you are seeing them as they were 13.4 billion years ago. 
+
+This is our universe. This is the scale. The Hubble Ultra Deep Field spans nearly nothing of the full scale of the universe, yet that picture contains thousands of galaxies. 
+
+Whenever I feel down, I look at the sky and I realize that I'm a part of all this. The universe is so huge, so mind-bogglingly large that we can barely comprehend it. People like to seperate themselves from it all, but when I say the universe I mean *the Universe.* That includes me, you and everyone else. It includes human spirit and fortitude. The Universe is a huge amazing thing, but it's so much bigger because it has us trying to survive and understand the things it throws at us. 
+
+Space is so cool.
