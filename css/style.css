@@ -18,6 +18,7 @@ li.list-group-item:hover{
 	width: 100% !important;
 }
 
+
 .pager li>a{
 	background-color: #2655A5;
 	border:1px solid #FFCA6B;
@@ -58,7 +59,7 @@ li.list-group-item:hover{
 
 .cat-items h2, h4, h5{
 	margin-top: 10px;
-	color: #80E1D4;
+	color: #e6fffb;
 }
 
 .content-box{
@@ -67,14 +68,14 @@ li.list-group-item:hover{
 	margin-bottom: 20px;
 	min-height: 100vh;
 	height: 100%;
-	color: #80E1D4;
+	color: #e6fffb;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	padding-left: 45px;
 }
 
 .content-box hr{
-	border-color: #80E1D4;
+	border-color: #e6fffb;
 	width: 88%;
 	display: inline-block;
 	margin-top: 8px;
@@ -96,6 +97,11 @@ li.list-group-item:hover{
 	color: #CAC0F5;
 }
 
+.justify > .img-text{
+	text-align: center;
+
+}
+
 .index-list {
 	box-shadow: none;
 }
@@ -105,7 +111,8 @@ li.list-group-item:hover{
 }
 
 .project-list p {
-	color: #80E1D4;
+	color: #e6fffb;
+	text-align: justify;
 }
 
 .navbar-box{
@@ -113,11 +120,11 @@ li.list-group-item:hover{
 }
 
 .navbar-default .navbar-brand{
-	color: #80E1D4;
+	color: #e6fffb;
 }
 
 .navbar-default .navbar-nav>li>a{
-	color: #80E1D4;
+	color: #e6fffb;
 }
 
 .navbar-custom{
@@ -131,7 +138,6 @@ li.list-group-item:hover{
 }
 
 .page-content{
-	text-align: justify;
 	width: 88%;
 }
 
@@ -150,7 +156,7 @@ li.list-group-item:hover{
 
 .project-items h2, h4{
 	margin-top: 10px;
-	color: #80E1D4;
+	color: #e6fffb;
 	border-radius: 5px;
 }
 
@@ -161,10 +167,13 @@ li.list-group-item:hover{
 
 .post-items h2, h4{
 	margin-top: 10px;
-	color: #80E1D4;
+	color: #e6fffb;
 }
 
 .title{
 	padding-top: 5px;
 	padding-left: 15px;
+}
+.justify p {
+	text-align: justify;
 }
