@@ -3,17 +3,18 @@ layout: page
 title: "Categories"
 nav: true
 ---
+{% assign sorted = site.categories | sort %}
 <ul class="list-group index-list">
-  {% for cat in site.categories %}
-  	<li class="list-group-item cat-items" tabindex="{% increment x %}">
-	  		<h2 class="cat">{{ cat[0] | replace: "-", " " }}</h2>
-	  		<ul class="cat-item">
-		  		{% for post in cat[1] %}
-		  			<li>
-			  			<h4><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: "%D" }}</a></h4>
+  {% for cat in sorted %}
+	  	<li class="list-group-item cat-items" tabindex="{% increment x %}">
+		  	<h3 class="cat"><span class="caret indicator"></span>{{ cat[0] | replace: "-", " " }}</h3>
+		  	<ul class="cat-item linky">
+			  	{% for post in cat[1] %}
+			  		<li class="linky">
+			  			<h5><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: "%D" }}</a></h5>
 		  			</li>
-		  		{% endfor %}
+		  		{% endfor %}			  	
 		  	</ul>
-	</li>
+		</li>
   {% endfor %}
 </ul>
