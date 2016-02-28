@@ -1,4 +1,4 @@
 
-<hr>
+<hr style="display:block;margin-left:0px;">
 
-<i><p> This post was posted on {{ page.date | date: '%B %d, %Y' }} in the category {{ page.category }}.</p>
+<i><p> This post was posted on {{ page.date | date: '%B %d, %Y' }}{% if page.category %} in the category {{ page.category }}{% endif %}.</p>
