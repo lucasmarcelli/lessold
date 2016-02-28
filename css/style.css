@@ -1,5 +1,5 @@
 body{
-	background: #F9DFB0;
+	background: #B7F3EB;
 }
 
 ul{
@@ -16,14 +16,14 @@ a.list-group-item:hover{
 	margin-bottom: 20px;
 	min-height: 100vh;
 	height: 100%;
-	color: #FFE9C0;
+	color: #80E1D4;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	padding-left: 45px;
 }
 
 .content-box hr{
-	border-color: #BDD2F4;
+	border-color: #80E1D4;
 	width: 88%;
 	display: inline-block;
 	margin-top: 8px;
@@ -53,14 +53,18 @@ a.list-group-item:hover{
 	padding: 0px;
 }
 
+.navbar-default .navbar-brand {
+	color: #80E1D4;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #80E1D4;
+}
+
 .navbar-custom {
 	border-radius: 10px;
 	border: none;
-	background: #99D0C8;
-}
-
-.navbar-text {
-	color: #7C68D4;
+	background: #638BD0;
 }
 
 .page-content{
@@ -83,7 +87,7 @@ a.list-group-item:hover{
 
 .post-items h2, h4{
 	margin-top: 10px;
-	color: #FFE9C0;
+	color: #80E1D4;
 }
 
 .title{
