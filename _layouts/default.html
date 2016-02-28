@@ -2,7 +2,30 @@
 <html lang="en">
  
   {% include head.html %}
+  <body>
 
-  {{ content }}
+	<div class="container-fluid">
+		<div class="row">
+			<div class="navbar-box col-md-offset-2 col-md-8">
+				{% include navbar.html %}
+			</div>
+		</div>
+		<div class="row">
+			<div class="content-box col-md-offset-2 col-md-8">
+
+  				{{ content }}
+
+  			</div>
+		</div>
+	</div>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js"></script>
+
+	</body>
 
 </html>
