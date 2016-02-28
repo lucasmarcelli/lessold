@@ -2,7 +2,6 @@
 layout: post
 title: "Test post"
 subtitle: "Please ignore"
-category: test
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at eros sit amet nulla hendrerit feugiat. Integer fringilla purus eu ullamcorper elementum. Quisque ut risus ut felis semper congue eget eu mauris. Donec gravida sem id tempus consectetur. Vivamus lacinia erat ex, at tristique erat cursus in. Donec vel mauris diam. Sed id ultricies orci. Donec scelerisque vel orci in convallis. Etiam tincidunt fringilla interdum. Aenean dictum ipsum vulputate turpis malesuada, at imperdiet mi faucibus. Sed vestibulum, eros id placerat facilisis, enim ante pretium mauris, sit amet facilisis enim tortor eleifend dui.
