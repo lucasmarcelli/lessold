@@ -14,7 +14,7 @@ category: life
 </p>
 
 <p>
-	So in that vein, I have decided to create a new website. I'm trying to become better at front-end development and my old website, while nice looking, was simply a modified theme. Everything on this new website was made by me to learn bootstrap and other CSS tricks!
+	So in that vein, I have decided to create a new website. I'm trying to become better at front-end development and my old website, while nice looking, was simply a modified theme. Everything on this new website was made by me to learn bootstrap and other CSS tricks! It's been fun so far.
 </p>
 
 <p>
