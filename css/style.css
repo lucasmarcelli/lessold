@@ -15,19 +15,19 @@ li.project-items:hover{
 }
 
 a.light:hover {
-	background-color: #638BD0;
+	background-color: #432CAC;
 }
 
 li.light:hover{
-	background-color: #638BD0;
+	background-color: #432CAC;
 }
 
 a.dark:hover {
-	background-color: #638BD0;
+	background-color: #432CAC;
 }
 
 li.dark:hover{
-	background-color: #638BD0;
+	background-color: #432CAC;
 }
 
 .first{
@@ -50,7 +50,7 @@ li.dark:hover{
 }
 
 .dark h1 {
-	color: #2655A5;
+	color: #638BD0;
 	text-transform: capitalize;
 	text-align: right;
 	margin-bottom: auto;
@@ -64,12 +64,12 @@ li.dark:hover{
 
 
 .pager li>a{
-	background-color: #2655A5;
+	background-color: #432CAC;
 	border:1px solid #FFCA6B;
 }
 
 .pager li>a:hover{
-	background-color: #638BD0;
+	background-color: #7C68D4;
 }
 
 .cat{
@@ -84,7 +84,7 @@ li.dark:hover{
 .cat-items:hover > .cat-item{
 	display: block;
 	padding-bottom: 10px;
-	background-color: #2655A5;
+	background-color: #432CAC;
 }
 
 .cat-item{
@@ -107,7 +107,7 @@ li.dark:hover{
 }
 
 .content-box{
-	background-color: #638BD0;
+	background-color: #432CAC;
 	border-radius: 5px;
 	margin-bottom: 20px;
 	min-height: 100vh;
@@ -195,7 +195,7 @@ li.dark:hover{
 }
 
 .page-content a{
-	color: #FFCA6B;
+	color: #638BD0;
 }
 
 .project-items {
@@ -219,7 +219,7 @@ li.dark:hover{
 }
 
 .dark{
-	background-color: #2655A5;
+	background-color: #638BD0;
 }
 
 .post-items h2, h4{
