@@ -11,7 +11,7 @@ subtitle: "Sometimes I have a point."
 			<a href="{{ post.url }}" class="list-group-item post-items light">
 				<div class="first">
 					<h2>{{ post.title }}</h2>
-					<h4><i>{{ post.subtitle }}</i></h4>
+					<h4 class="tagline-light"><i>{{ post.subtitle }}</i></h4>
 					<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
 				</div>
 				<div class="second">
@@ -28,7 +28,7 @@ subtitle: "Sometimes I have a point."
 			<a href="{{ post.url }}" class="list-group-item post-items dark">
 				<div class="first">
 					<h2>{{ post.title }}</h2>
-					<h4><i>{{ post.subtitle }}</i></h4>
+					<h4 class="tagline-dark"><i>{{ post.subtitle }}</i></h4>
 					<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
 				</div>
 				<div class="second">

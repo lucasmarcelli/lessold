@@ -1,3 +1,6 @@
+
+
+
 body{
 	background: #e6fffb;
 }
@@ -15,19 +18,19 @@ li.project-items:hover{
 }
 
 a.light:hover {
-	background-color: #432CAC;
+	background-color: #5F49C0;
 }
 
 li.light:hover{
-	background-color: #432CAC;
+	background-color: #5F49C0;
 }
 
 a.dark:hover {
-	background-color: #432CAC;
+	background-color: #5F49C0;
 }
 
 li.dark:hover{
-	background-color: #432CAC;
+	background-color: #5F49C0;
 }
 
 .first{
@@ -41,7 +44,7 @@ li.dark:hover{
 }
 
 .light h1 {
-	color: #8BACE3;
+	color: #FFD892;
 	text-transform: capitalize;
 	text-align: right;
 	margin-bottom: auto;
@@ -50,7 +53,7 @@ li.dark:hover{
 }
 
 .dark h1 {
-	color: #638BD0;
+	color: #FFD892;
 	text-transform: capitalize;
 	text-align: right;
 	margin-bottom: auto;
@@ -64,7 +67,7 @@ li.dark:hover{
 
 
 .pager li>a{
-	background-color: #432CAC;
+	background-color: #5F49C0;
 	border:1px solid #FFCA6B;
 }
 
@@ -84,7 +87,7 @@ li.dark:hover{
 .cat-items:hover > .cat-item{
 	display: block;
 	padding-bottom: 10px;
-	background-color: #432CAC;
+	background-color: #5F49C0;
 }
 
 .cat-item{
@@ -103,16 +106,16 @@ li.dark:hover{
 
 .cat-items h2, h4, h5{
 	margin-top: 10px;
-	color: #e6fffb;
+	color: white;
 }
 
 .content-box{
-	background-color: #432CAC;
+	background-color: #5F49C0;
 	border-radius: 5px;
 	margin-bottom: 20px;
 	min-height: 100vh;
 	height: 100%;
-	color: #e6fffb;
+	color: white;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	padding-left: 45px;
@@ -156,7 +159,7 @@ li.dark:hover{
 }
 
 .project-list p {
-	color: #e6fffb;
+	color: white;
 	text-align: justify;
 }
 
@@ -165,17 +168,27 @@ li.dark:hover{
 }
 
 .navbar-default .navbar-brand{
-	color: #e6fffb;
+	color: white;
 }
 
-.navbar-default .navbar-nav>li>a{
-	color: #e6fffb;
+.navbar-default .navbar-brand:hover{
+	color: #FFD892;
 }
+
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #FFD892;
+}
+
 
 .navbar-custom{
 	border-radius: 5px;
 	border: none;
-	background: #638BD0;
+	background: #5F49C0;
 }
 
 .navbar-right{
@@ -195,7 +208,7 @@ li.dark:hover{
 }
 
 .page-content a{
-	color: #638BD0;
+	color: #FFD892;
 }
 
 .project-items {
@@ -205,7 +218,7 @@ li.dark:hover{
 
 .project-items h2, h4{
 	margin-top: 10px;
-	color: #e6fffb;
+	color: white;
 	border-radius: 5px;
 }
 
