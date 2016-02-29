@@ -35,12 +35,21 @@ li.dark:hover{
 
 .first{
 	display:inline-block;
-	width: 64%;
+	width: 70%;
 }
 
 .second{
 	display:inline-block;
-	width: 30%;
+	width: 28%;
+}
+
+.list-group-item{
+	padding-right: 5px;
+}
+
+.list-group-item h4{
+	margin-bottom: 0;
+	margin-top: 5px;
 }
 
 .light h1 {
@@ -49,7 +58,7 @@ li.dark:hover{
 	text-align: right;
 	margin-bottom: auto;
 	margin-top: 0;
-	font-size: 18pt;
+	font-size: 16pt;
 }
 
 .dark h1 {
@@ -58,7 +67,7 @@ li.dark:hover{
 	text-align: right;
 	margin-bottom: auto;
 	margin-top: 0;
-	font-size: 18pt;
+	font-size: 16pt;
 }
 
 .old-header{
