@@ -19,9 +19,12 @@ category: life
 
 <p>
 	So once again, join me on my quest to find myself or something.
-	<p class="img-text">
-		<img src="/assets/img/posts/feb2016/adventure.gif" title="Come on grab your friends!">
-	</p>
+</p>
 
+<p class="img-text"> 
+	<img src="/assets/img/posts/feb2016/adventure.gif" title="Come on grab your friends!">
+</p>
+
+<p>
 	Also, when I first posted this I put the date as March 1st and the post refused to show up... because it's a leap year! Neat!
 </p>

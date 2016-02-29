@@ -58,7 +58,7 @@ li.dark:hover{
 	text-align: right;
 	margin-bottom: auto;
 	margin-top: 0;
-	font-size: 16pt;
+	font-size: medium;
 }
 
 .dark h1 {
@@ -67,7 +67,7 @@ li.dark:hover{
 	text-align: right;
 	margin-bottom: auto;
 	margin-top: 0;
-	font-size: 16pt;
+	font-size: medium;
 }
 
 .old-header{
@@ -132,7 +132,7 @@ li.dark:hover{
 
 .content-box hr{
 	border-color: #FFCA6B;
-	width: 88%;
+	width: 94%;
 	display: inline-block;
 	margin-top: 8px;
 	margin-bottom: 8px;
@@ -209,7 +209,7 @@ li.dark:hover{
 }
 
 .page-content{
-	width: 88%;
+	width: 94%;
 }
 
 .page-content p{
