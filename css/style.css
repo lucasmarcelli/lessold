@@ -58,7 +58,7 @@ li.dark:hover{
 	text-align: right;
 	margin-bottom: auto;
 	margin-top: 0;
-	font-size: medium;
+	font-size: large;
 }
 
 .dark h1 {
@@ -67,7 +67,7 @@ li.dark:hover{
 	text-align: right;
 	margin-bottom: auto;
 	margin-top: 0;
-	font-size: medium;
+	font-size: large;
 }
 
 .old-header{
@@ -161,6 +161,14 @@ li.dark:hover{
 .index-list {
 	box-shadow: none;
 	border-radius: 0px;
+}
+
+.index-list h2{
+	font-size: x-large;
+}
+
+.index-list h4{
+	font-size: medium;
 }
 
 .project-list {
