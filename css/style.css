@@ -43,6 +43,10 @@ li.dark:hover{
 	width: 28%;
 }
 
+.second h4{
+	color: #FFD892;
+}
+
 .list-group-item{
 	padding-right: 5px;
 }
@@ -50,6 +54,10 @@ li.dark:hover{
 .list-group-item h4{
 	margin-bottom: 0;
 	margin-top: 5px;
+}
+
+.left-padded h4{
+	padding-left: 50%;
 }
 
 .light h1 {
