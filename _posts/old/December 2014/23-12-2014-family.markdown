@@ -2,7 +2,7 @@
 layout: old-post
 title: "Christmas is family time"
 subtitle: "So here's an intro to my family!"
-category: cute-stuff
+category: [cute-stuff, life]
 ---
 
 Being Italian means I was raised very strictly Roman Catholic. Church every week, singing in choir, altar serving to the point of receiving a medal for my years of service to the Holy See. 

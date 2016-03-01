@@ -2,7 +2,7 @@
 layout: old-post
 title: "Putting my Life on Hold"
 subtitle: "Sometimes we just need a break."
-category: life
+category: [life, mental-health]
 ---
 
 This past year has really given me a ton of hard choices to make. 

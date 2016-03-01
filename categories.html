@@ -10,8 +10,8 @@ nav: true
 		{% if x == 0 %} 
 		  	<li>
 		  		<a href="/{{ cat[0] }}.html" class="list-group-item post-items light">
-			  		<div class="first">
-			  			<h2> {{ cat[0] | capitalize }} </h2>
+			  		<div class="first capitalized">
+			  			<h2> {{ cat[0] | replace: "-", " " }}</h2>
 			  		</div>
 					<div class="second left-padded">
 			  			<h4> {{ cat[1].size }} Posts</h4>
@@ -22,8 +22,8 @@ nav: true
 		{% else %}
 			<li>
 		  		<a href="/{{ cat[0] }}.html" class="list-group-item post-items dark">
-		  			<div class="first">
-			  			<h2> {{ cat[0] | capitalize }} </h2>
+		  			<div class="first capitalized">
+			  			<h2> {{ cat[0] | replace: "-", " " }}</h2>
 			  		</div>
 					<div class="second left-padded">
 			  			<h4> {{ cat[1].size }} Posts</h4>

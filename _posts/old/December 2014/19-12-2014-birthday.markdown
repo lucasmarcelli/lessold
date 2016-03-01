@@ -2,7 +2,7 @@
 layout: old-post
 title: "Yesterday was my birthday"
 subtitle: "It was pretty fun!"
-category: cute-stuff
+category: [cute-stuff, life]
 ---
 
 Yesterday was my birthday. I really enjoyed myself. I spent the day with Kelly just chilling and it was really nice. 

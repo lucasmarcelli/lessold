@@ -23,6 +23,11 @@ is-category: true
 								<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
 							</div>
 							<div class="second">
+								{% for cat in post.category %}
+									{% if cat != "nonsense" %}
+										<h1> {{ cat | replace: "-", " " }}</h1>
+									{% endif %}
+								{% endfor %}
 								{% if post.layout == "old-post" %}
 									<h1> Old site post</h1>
 								{% endif %}
@@ -39,6 +44,11 @@ is-category: true
 								<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
 							</div>
 							<div class="second">
+								{% for cat in post.category %}
+									{% if cat != "nonsense" %}
+										<h1> {{ cat | replace: "-", " " }}</h1>
+									{% endif %}
+								{% endfor %}
 								{% if post.layout == "old-post" %}
 									<h1> Old site post</h1>
 								{% endif %}

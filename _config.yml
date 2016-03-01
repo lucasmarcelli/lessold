@@ -16,3 +16,5 @@ github_username:  lucasmarcelli
 
 # Build settings
 markdown: kramdown
+
+highlighter: pygments

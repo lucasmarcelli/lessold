@@ -2,7 +2,7 @@
 layout: old-post
 title: "I'm Back"
 subtitle: "Better Late Than Never...."
-category: nonsense
+category: [nonsense, life]
 ---
 
 <p class="img-text">

@@ -1,6 +1,3 @@
-
-
-
 body{
 	background: #e6fffb;
 }
@@ -31,6 +28,10 @@ a.dark:hover {
 
 li.dark:hover{
 	background-color: #5F49C0;
+}
+
+.capitalized h2{
+	text-transform: capitalize;
 }
 
 .first{
