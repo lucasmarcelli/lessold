@@ -3,7 +3,7 @@ layout: page
 title: "Lucas' Blog and Website"
 subtitle: "Sometimes I have a point." 
 ---
-<div class="code">{% increment x %}</div>
+<div class="liquid-liquid-code">{% increment x %}</div>
 <ul class="index-list list-group">
   {% for post in site.posts %}
   {% if x == 0 %} 
@@ -24,7 +24,7 @@ subtitle: "Sometimes I have a point."
 				</div>
 			</a>
 		</li>
-		<div class="code">{% increment x %}</div>
+		<div class="liquid-code">{% increment x %}</div>
 	{% else %}
 		<li>
 			<a href="{{ post.url }}" class="list-group-item post-items dark">
@@ -43,7 +43,7 @@ subtitle: "Sometimes I have a point."
 				</div>
 			</a>
 		</li>
-		<div class="code">{% decrement x %}</div>
+		<div class="liquid-code">{% decrement x %}</div>
 	{% endif %}
   {% endfor %}
 </ul>

@@ -4,7 +4,7 @@ title: "Nonsense"
 desc: "Anything that doesn't quite fit in another category goes here."
 is-category: true
 ---
-<div class="code">{% increment x %}</div>
+<div class="liquid-code">{% increment x %}</div>
 <p>
 	{{ page.desc }}
 </p>
@@ -34,7 +34,7 @@ is-category: true
 							</div>
 						</a>
 					</li>
-					<div class="code">{% increment x %}</div>
+					<div class="liquid-code">{% increment x %}</div>
 				{% else %}
 					<li>
 						<a href="{{ post.url }}" class="list-group-item post-items dark">
@@ -55,7 +55,7 @@ is-category: true
 							</div>
 						</a>
 					</li>
-					<div class="code">{% decrement x %}</div>
+					<div class="liquid-code">{% decrement x %}</div>
 				{% endif %}
 		  	{% endfor %}	
 		{% endif %}		  	

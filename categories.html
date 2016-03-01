@@ -3,7 +3,7 @@ layout: page
 title: "Categories"
 nav: true
 ---
-<div class="code">{% increment x %}</div>
+<div class="liquid-code">{% increment x %}</div>
 <ul class="list-group index-list">
 {% assign sorted = site.categories | sort %}
   {% for cat in sorted %}
@@ -18,7 +18,7 @@ nav: true
 			  		</div>
 		  		</a>
 		  	</li>
-		  	<div class="code">{% increment x %}</div>
+		  	<div class="liquid-code">{% increment x %}</div>
 		{% else %}
 			<li>
 		  		<a href="/{{ cat[0] }}.html" class="list-group-item post-items dark">
@@ -30,7 +30,7 @@ nav: true
 			  		</div>
 		  		</a>
 		  	</li>
-		  	<div class="code">{% decrement x %}</div>
+		  	<div class="liquid-code">{% decrement x %}</div>
 		{% endif %}
   {% endfor %}
 </ul>
