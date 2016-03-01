@@ -2,7 +2,8 @@
 layout: old-post
 title: "Generating the Kitty Page"
 subtitle: "That was an interesting exercise."
-category: [coding, this-website]
+category: coding
+project: this-website
 ---
 
 [I really like my cat.](/kitty)

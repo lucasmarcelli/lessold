@@ -2,7 +2,7 @@
 layout: old-post
 title: "I had an exam"
 subtitle: "I feel pretty okay about it."
-category: mental-health
+category: [life, mental-health]
 ---
 
 About a week or so ago, knowledge of an impending exam sprung up on me. It was not expected and I had no idea I'd be taking this exam until this point. Needless to say, studying for it was a stressful experience.

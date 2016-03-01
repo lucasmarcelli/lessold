@@ -3,6 +3,7 @@ layout: post
 title: "New Layout, New Direction"
 subtitle: "Away we gooooooo....!"
 category: life
+project: this-website
 ---
 
 <p>

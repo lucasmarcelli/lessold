@@ -28,6 +28,9 @@ is-category: true
 										<h1> {{ cat | replace: "-", " " }}</h1>
 									{% endif %}
 								{% endfor %}
+								{% if post.project %}
+									<h1> {{ post.project | replace: "-", " " }} </h1>
+								{% endif %}
 								{% if post.layout == "old-post" %}
 									<h1> Old site post</h1>
 								{% endif %}
@@ -49,6 +52,9 @@ is-category: true
 										<h1> {{ cat | replace: "-", " " }}</h1>
 									{% endif %}
 								{% endfor %}
+								{% if post.project %}
+									<h1> {{ post.project | replace: "-", " " }} </h1>
+								{% endif %}
 								{% if post.layout == "old-post" %}
 									<h1> Old site post</h1>
 								{% endif %}

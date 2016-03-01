@@ -18,6 +18,9 @@ subtitle: "Sometimes I have a point."
 					{% for cat in post.category %}
 						<h1> {{ cat | replace: "-", " " }}</h1>
 					{% endfor %}
+					{% if post.project %}
+						<h1> {{ post.project | replace: "-", " " }} </h1>
+					{% endif %}
 					{% if post.layout == "old-post" %}
 						<h1> Old site post</h1>
 					{% endif %}
@@ -37,6 +40,9 @@ subtitle: "Sometimes I have a point."
 					{% for cat in post.category %}
 						<h1> {{ cat | replace: "-", " " }}</h1>
 					{% endfor %}
+					{% if post.project %}
+						<h1> {{ post.project | replace: "-", " " }} </h1>
+					{% endif %}
 					{% if post.layout == "old-post" %}
 						<h1> Old site post</h1>
 					{% endif %}

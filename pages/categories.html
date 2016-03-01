@@ -9,7 +9,7 @@ nav: true
   {% for cat in sorted %}
 		{% if x == 0 %} 
 		  	<li>
-		  		<a href="/{{ cat[0] }}.html" class="list-group-item post-items light">
+		  		<a href="/pages/{{ cat[0] }}.html" class="list-group-item post-items light">
 			  		<div class="first capitalized">
 			  			<h2> {{ cat[0] | replace: "-", " " }}</h2>
 			  		</div>
@@ -21,7 +21,7 @@ nav: true
 		  	<div class="liquid-code">{% increment x %}</div>
 		{% else %}
 			<li>
-		  		<a href="/{{ cat[0] }}.html" class="list-group-item post-items dark">
+		  		<a href="/pages/{{ cat[0] }}.html" class="list-group-item post-items dark">
 		  			<div class="first capitalized">
 			  			<h2> {{ cat[0] | replace: "-", " " }}</h2>
 			  		</div>

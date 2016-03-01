@@ -3,6 +3,7 @@ layout: old-post
 title: "RSS is live"
 subtitle: "But it decided not to be easy."
 category: coding
+project: this-website
 ---
 
 I added an [RSS feed](/rss.xml) for this blog yesterday. 

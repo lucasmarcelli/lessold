@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "This Website"
-desc: "This is the page where my posts relating to the development of this website are."
+title: "Science"
+desc: "I love science and technology. This is the category for that."
 is-category: true
 ---
 <div class="liquid-code">{% increment x %}</div>
@@ -12,7 +12,7 @@ is-category: true
 {% assign sorted = site.categories | sort %}
 <ul class="list-group index-list">
   {% for cat in sorted %}
-	  	{% if cat[0] == "this-website" %}
+	  	{% if cat[0] == "science" %}
 			{% for post in cat[1] %}
 				 {% if x == 0 %} 
 				  	<li>
@@ -24,7 +24,7 @@ is-category: true
 							</div>
 							<div class="second">
 								{% for cat in post.category %}
-									{% if cat != "this-website" %}
+									{% if cat != "science" %}
 										<h1> {{ cat | replace: "-", " " }}</h1>
 									{% endif %}
 								{% endfor %}
@@ -45,7 +45,7 @@ is-category: true
 							</div>
 							<div class="second">
 								{% for cat in post.category %}
-									{% if cat != "this-website" %}
+									{% if cat != "science" %}
 										<h1> {{ cat | replace: "-", " " }}</h1>
 									{% endif %}
 								{% endfor %}

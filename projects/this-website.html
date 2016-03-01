@@ -1,19 +1,24 @@
 ---
 layout: page
-title: "Coding"
-desc: "This is the page where my posts relating to coding and development are!"
-is-category: true
+title: "This Website"
+desc: "This is the page where my posts relating to the development of this website are."
+is-project: true
 ---
 <div class="liquid-code">{% increment x %}</div>
 <p>
 	{{ page.desc }}
 </p>
+<p>
+	<a href="https://github.com/lucasmarcelli/lucasmarcelli.github.io">Here</a> is a link to the github-pages. I made this website because I wanted a place to record my thoughts and also practise different front-end techniques. The website will probably change layout pretty often as I improve my eye for design.
+</p>
+<p>
+	Here are the posts relating to the development of this website:
+</p>
 
-{% assign sorted = site.categories | sort %}
+
 <ul class="list-group index-list">
-  {% for cat in sorted %}
-	  	{% if cat[0] == "coding" %}
-			{% for post in cat[1] %}
+  {% for post in site.posts %}
+	  	{% if post.project == "this-website" %}
 				 {% if x == 0 %} 
 				  	<li>
 						<a href="{{ post.url }}" class="list-group-item post-items light">
@@ -24,7 +29,7 @@ is-category: true
 							</div>
 							<div class="second">
 								{% for cat in post.category %}
-									{% if cat != "coding" %}
+									{% if cat != "this-website" %}
 										<h1> {{ cat | replace: "-", " " }}</h1>
 									{% endif %}
 								{% endfor %}
@@ -45,7 +50,7 @@ is-category: true
 							</div>
 							<div class="second">
 								{% for cat in post.category %}
-									{% if cat != "coding" %}
+									{% if cat != "this-website" %}
 										<h1> {{ cat | replace: "-", " " }}</h1>
 									{% endif %}
 								{% endfor %}
@@ -57,7 +62,6 @@ is-category: true
 					</li>
 					<div class="liquid-code">{% decrement x %}</div>
 				{% endif %}
-		  	{% endfor %}	
 		{% endif %}		  	
   {% endfor %}
 </ul>

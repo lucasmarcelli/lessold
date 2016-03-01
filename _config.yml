@@ -18,3 +18,7 @@ github_username:  lucasmarcelli
 markdown: kramdown
 
 highlighter: rouge
+
+collections:
+- pages
+- projects

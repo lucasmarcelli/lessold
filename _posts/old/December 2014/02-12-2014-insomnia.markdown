@@ -2,7 +2,8 @@
 layout: old-post
 title: "Couldn't really sleep last night"
 subtitle: "Better mess with my website. That'll make me sleep."
-category: [coding, this-website]
+category: coding
+project: this-website
 ---
 
 I really can not get to sleep. 

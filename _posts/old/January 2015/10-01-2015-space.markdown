@@ -2,7 +2,7 @@
 layout: old-post
 title: "Space is so cool"
 subtitle: "Seriously have you ever looked up at night?"
-category: science
+category: [science, nonsense]
 ---
 
 I really like space. 
