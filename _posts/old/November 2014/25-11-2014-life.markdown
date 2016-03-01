@@ -2,7 +2,7 @@
 layout: old-post
 title: "Musings On Life"
 subtitle: "Things fall into place sometimes."
-category: [mental-health, life]
+category: [life, mental-health]
 ---
 
 Have you ever sat down and thought about the way you were a year ago?

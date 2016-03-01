@@ -2,7 +2,7 @@
 layout: old-post
 title: "Getting older is weird"
 subtitle: "Tastes can change quite a bit."
-category: [nonsense, life]
+category: [life, nonsense]
 ---
 
 I like music I didn't used to like.
