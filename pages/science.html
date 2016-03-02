@@ -19,8 +19,8 @@ is-category: true
 						<a href="{{ post.url }}" class="list-group-item post-items light">
 							<div class="first">
 								<h2>{{ post.title }}</h2>
-								<h4><i>{{ post.subtitle }}</i></h4>
-								<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
+								<h4>{{ post.subtitle }}</h4>
+								<h6>Posted on {{ post.date | date: '%B %d, %Y' }}</h6>
 							</div>
 							<div class="second">
 								{% for cat in post.category %}
@@ -40,8 +40,8 @@ is-category: true
 						<a href="{{ post.url }}" class="list-group-item post-items dark">
 							<div class="first">
 								<h2>{{ post.title }}</h2>
-								<h4><i>{{ post.subtitle }}</i></h4>
-								<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
+								<h4>{{ post.subtitle }}</h4>
+								<h6>Posted on {{ post.date | date: '%B %d, %Y' }}</h6>
 							</div>
 							<div class="second">
 								{% for cat in post.category %}

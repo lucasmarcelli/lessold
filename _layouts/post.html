@@ -13,14 +13,14 @@ layout: default
 	{{ content }}
 	
 	
-	<hr style="display:block;margin-left:0px;">
+	<hr class="old-header">
 
 	<i><p> This post was added on {{ page.date | date: '%B %d, %Y' }}.</p>
 		{% if page.project %}
-			<p> Part of the project: <a href="/projects/mood.html"> {{ page.project | replace: "-", " " | capitalize }} </a></p>
+			<p> Part of the project: <a href="/projects/{{ page.project }}.html"> {{ page.project | replace: "-", " " | capitalize }} </a></p>
 		{% endif %}
-		<p id="categories">Categories this post belongs to:</p>
-	<ul>
+		<p class="categories-footer">This post belongs to:</p>
+	<ul class="post-footer">
 		{% for cat in page.category %}
 			<li>
 				<a href="/pages/{{ cat }}.html">{{ cat | replace: "-", " " | capitalize }}</a>

@@ -11,7 +11,7 @@ nav: true
 		  	<li>
 		  		<a href="/pages/{{ cat[0] }}.html" class="list-group-item post-items light">
 			  		<div class="first capitalized">
-			  			<h2> {{ cat[0] | replace: "-", " " }}</h2>
+			  			<h2> {{ cat[0] | capitalize | replace: "-", " " }}</h2>
 			  		</div>
 					<div class="second left-padded">
 			  			<h4> {{ cat[1].size }} Posts</h4>
@@ -23,7 +23,7 @@ nav: true
 			<li>
 		  		<a href="/pages/{{ cat[0] }}.html" class="list-group-item post-items dark">
 		  			<div class="first capitalized">
-			  			<h2> {{ cat[0] | replace: "-", " " }}</h2>
+			  			<h2> {{ cat[0] | capitalize | replace: "-", " " }}</h2>
 			  		</div>
 					<div class="second left-padded">
 			  			<h4> {{ cat[1].size }} Posts</h4>

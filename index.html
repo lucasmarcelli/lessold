@@ -9,21 +9,25 @@ subtitle: "Sometimes I have a point."
   {% if x == 0 %} 
 	  	<li>
 			<a href="{{ post.url }}" class="list-group-item post-items light">
-				<div class="first">
+				<div class="top">
 					<h2>{{ post.title }}</h2>
-					<h4><i>{{ post.subtitle }}</i></h4>
-					<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
 				</div>
-				<div class="second">
-					{% for cat in post.category %}
-						<h1> {{ cat | replace: "-", " " }}</h1>
-					{% endfor %}
-					{% if post.project %}
-						<h1> {{ post.project | replace: "-", " " }} </h1>
-					{% endif %}
-					{% if post.layout == "old-post" %}
-						<h1> Old site post</h1>
-					{% endif %}
+				<div class="bottom">
+					<div class="first">
+						<h4>{{ post.subtitle }}</h4>
+						<h6>Posted on {{ post.date | date: '%B %d, %Y' }}</h6>
+					</div>
+					<div class="second">
+						{% for cat in post.category %}
+							<h1> {{ cat | replace: "-" , " " }}</h1>
+						{% endfor %}
+						{% if post.project %}
+							<h1> {{ post.project | replace: "-" , " " }} </h1>
+						{% endif %}
+						{% if post.layout == "old-post" %}
+							<h1> Old site post</h1>
+						{% endif %}
+					</div>
 				</div>
 			</a>
 		</li>
@@ -31,21 +35,25 @@ subtitle: "Sometimes I have a point."
 	{% else %}
 		<li>
 			<a href="{{ post.url }}" class="list-group-item post-items dark">
-				<div class="first">
+				<div class="top">
 					<h2>{{ post.title }}</h2>
-					<h4><i>{{ post.subtitle }}</i></h4>
-					<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
 				</div>
-				<div class="second">
-					{% for cat in post.category %}
-						<h1> {{ cat | replace: "-", " " }}</h1>
-					{% endfor %}
-					{% if post.project %}
-						<h1> {{ post.project | replace: "-", " " }} </h1>
-					{% endif %}
-					{% if post.layout == "old-post" %}
-						<h1> Old site post</h1>
-					{% endif %}
+				<div class="bottom">
+					<div class="first">
+						<h4>{{ post.subtitle }}</h4>
+						<h6>Posted on {{ post.date | date: '%B %d, %Y' }}</h6>
+					</div>
+					<div class="second">
+						{% for cat in post.category %}
+							<h1> {{ cat | replace: "-" , " " }}</h1>
+						{% endfor %}
+						{% if post.project %}
+							<h1> {{ post.project | replace: "-" , " " }} </h1>
+						{% endif %}
+						{% if post.layout == "old-post" %}
+							<h1> Old site post</h1>
+						{% endif %}
+					</div>
 				</div>
 			</a>
 		</li>
