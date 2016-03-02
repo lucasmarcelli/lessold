@@ -30,6 +30,10 @@ li.dark:hover{
 	background-color: #5F49C0;
 }
 
+#categories{
+	margin-bottom: 0px;
+}
+
 .capitalized h2{
 	text-transform: capitalize;
 }

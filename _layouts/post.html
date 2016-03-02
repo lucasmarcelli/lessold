@@ -16,7 +16,18 @@ layout: default
 	<hr style="display:block;margin-left:0px;">
 
 	<i><p> This post was added on {{ page.date | date: '%B %d, %Y' }}.</p>
-
+		{% if page.project %}
+			<p> Part of the project: <a href="/projects/mood.html"> {{ page.project | replace: "-", " " | capitalize }} </a></p>
+		{% endif %}
+		<p id="categories">Categories:</p>
+	<ul>
+		{% for cat in page.category %}
+			<li>
+				<a href="/pages/{{ cat }}.html">{{ cat | replace: "-", " " | capitalize }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+	</i>
 	<ul class="pager">
 	   	{% if page.previous.url %}
 	     	<li class="previous">
