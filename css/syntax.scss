@@ -1,14 +1,25 @@
-.highlight table{
-	width: 100%;
-	border-spacing: 3px;
-}
+---
+---
+$site-background-color: #E6FFFB;
+$accent-light-color: #FFD892;
 
 .highlight  { 
-	width: 92%;
+	width: 83%;
 	margin: auto;
 	background: #ffffff;
-}
 
+	pre{
+		background-color: $site-background-color;
+		padding: 3px;
+		margin-bottom: 2px;
+	}
+
+	table{
+		width: 100%;
+		border-spacing: 3px;
+		border-color: $accent-light-color;
+	}
+}
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #888888 } /* Comment */
 .highlight .err { color: #FF0000; background-color: #FFAAAA } /* Error */

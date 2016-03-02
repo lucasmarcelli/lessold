@@ -1,0 +1,122 @@
+---
+layout: post
+title: "Let's learn SCSS"
+subtitle: "Fun."
+category: coding
+project: this-website
+---
+
+<p>
+	In preparation for various things, such as job hunting and my <a href="/projects/mood-tracker.html"> mood project, </a> I decided it would be prudent to learn a CSS preprocessor. Given that Jekyll supports sass/scss with me only needing to ensure <code>style.css</code> was renamed to <code>style.scss</code>, I decided to give it a try and implement my stylesheet for this website in scss.
+</p>
+
+<p>
+	For the streets behind, <a href="http://sass-lang.com/"> sass/scss </a> is a "CSS Extension Language" which processes to css. In fact, any <code>.css</code> file is valid scss. The preprocessor allows the use of things like variables, nesting and a ton of other features that make site design easier. I'm actually really excited to use it to build the mood app's frontend from scratch, as many of the weird kludges I am used to in pure css will be a distant memory.
+</p>
+
+<p>
+	There is two features I find incredibly useful so far: variables and nesting, though I'm sure as time goes on, the rest will be too.
+</p>
+
+<p>
+	<h3> Variables in SCSS </h3>
+</p>
+<p>
+	Variables in sass are very straight forward and incredibly useful for ensuring you have a cohesive theme across pages. Let's take this example from my old <code>style.css</code>:
+</p>
+
+<p>
+	{% highlight scss linenos %}	
+		.content-box{
+			background-color: #5F49C0;
+			/* Other settings */
+		}
+	{% endhighlight %}
+</p>
+
+<p>
+	Anytime that I would want to change that value, I'd have to find the tag in my css file and change it manually. Might not seem like a big deal, until you realize that each colour is chosen relative to others, and that I actually need to change this value in multiple places if I ever decide to change it!
+</p>
+
+<p>
+	{% highlight scss linenos %}
+		.pager li>a{
+			background-color: #5F49C0;
+		}
+		a.light:hover {
+			background-color: #5F49C0;
+		}
+		li.light:hover{
+			background-color: #5F49C0;
+		}
+		a.dark:hover {
+			background-color: #5F49C0;
+		}
+		li.dark:hover{
+			background-color: #5F49C0;
+		}
+	{% endhighlight %}
+</p>
+
+<p>
+	Each time I decided to change the colour scheme, I would have to change it anywhere it is used. The solution is simple. Create a sass variable for the colour and replace it everywhere in the CSS with it!
+</p>
+
+<p>
+	{% highlight scss linenos %}
+		$content-base-color: #5F49C0;
+		.content-box{
+			background-color: $content-base-color;
+			/* Other settings */
+		}
+	{% endhighlight %}
+</p>
+
+<p>
+	<h3> Nesting </h3>
+</p>
+
+<p>
+	Nesting makes your file a lot easier to read and figure out exactly what it is you are trying to accomplish. It's simple but powerful and actually makes thinking of how you are going to group things much easier. When styling child elements in CSS, you do it like this:
+</p>
+
+<p>
+	{% highlight scss linenos %}
+		.project-list {
+			box-shadow: none;
+		}
+
+		.project-list p {
+			color: white;
+			text-align: justify;
+		}
+	{% endhighlight %}
+</p>
+
+<p> 
+	<code>.project-list</code> is the class of the parent element, and then <code>.project-list p</code> will affect any paragraph elements which are also children to <code>.project-list</code>.
+</p>
+
+<p> 
+	This works, but it's kinda ugly and not great to maintain, doubly so if you didn't write it yourself. Sass solves the problem like this: 
+</p>
+
+<p>
+	{% highlight scss linenos %}
+		.project-list {
+			box-shadow: none;
+		 	p {
+				color: $brand-color;
+				text-align: justify;
+			}
+		}
+	{% endhighlight %}
+</p>
+
+<p>
+	Conveniently, sass simply compiles the above back into the exact same CSS that I had written earlier, but the maintainability of having it nested is just beautiful.
+</p>
+
+<p>
+	I'm really glad I decided to learn sass and I highly suggest to everyone reading this that they check it out if they haven't already! 
+</p>

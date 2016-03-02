@@ -17,13 +17,13 @@ layout: default
 
 	<i><p> This post was added on {{ page.date | date: '%B %d, %Y' }}.</p>
 		{% if page.project %}
-			<p> Part of the project: <a href="/projects/{{ page.project }}.html"> {{ page.project | replace: "-", " " | capitalize }} </a></p>
+			<p> Part of the project: <a href="/projects/{{ page.project }}.html"> {{ page.project | capitalize | replace: "-", " " }} </a></p>
 		{% endif %}
 		<p class="categories-footer">This post belongs to:</p>
 	<ul class="post-footer">
 		{% for cat in page.category %}
 			<li>
-				<a href="/pages/{{ cat }}.html">{{ cat | replace: "-", " " | capitalize }}</a>
+				<a href="/pages/{{ cat }}.html">{{ cat | capitalize | replace: "-", " " }}</a>
 			</li>
 		{% endfor %}
 	</ul>
