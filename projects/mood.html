@@ -1,0 +1,63 @@
+---
+layout: page
+title: "Mood Tracker"
+is-project: true
+---
+
+<p>
+	Our moods change throughout the day, and for people with depression, anxiety or other mental health issues, these fluctuations are the difference between going to work and staying in bed all day. Tracking your changes over team means you can identify problem times or activities and see yourself getting better or worse and adjust your life accordingly.
+</p>
+
+<p>
+	I am writing this with django as a backend to start. My hope is that this will show my full-stack development abilities.
+</p>
+
+<p>
+	There are already a few apps that do this, but I want to build it from scratch. This page will document the progress of it as I go along.
+</p>
+
+<ul class="list-group index-list">
+  {% for post in site.posts %}
+	  	{% if post.project == "mood-tracker" %}
+				 {% if x == 0 %} 
+				  	<li>
+						<a href="{{ post.url }}" class="list-group-item post-items light">
+							<div class="first">
+								<h2>{{ post.title }}</h2>
+								<h4><i>{{ post.subtitle }}</i></h4>
+								<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
+							</div>
+							<div class="second">
+								{% for cat in post.category %}
+									<h1> {{ cat | replace: "-", " " }}</h1>
+								{% endfor %}
+								{% if post.layout == "old-post" %}
+									<h1> Old site post</h1>
+								{% endif %}
+							</div>
+						</a>
+					</li>
+					<div class="liquid-code">{% increment x %}</div>
+				{% else %}
+					<li>
+						<a href="{{ post.url }}" class="list-group-item post-items dark">
+							<div class="first">
+								<h2>{{ post.title }}</h2>
+								<h4><i>{{ post.subtitle }}</i></h4>
+								<h4><i>Posted on {{ post.date | date: '%B %d, %Y' }}</i></h4>
+							</div>
+							<div class="second">
+								{% for cat in post.category %}
+									<h1> {{ cat | replace: "-", " " }}</h1>
+								{% endfor %}
+								{% if post.layout == "old-post" %}
+									<h1> Old site post</h1>
+								{% endif %}
+							</div>
+						</a>
+					</li>
+					<div class="liquid-code">{% decrement x %}</div>
+				{% endif %}
+		{% endif %}		  	
+  {% endfor %}
+</ul>
