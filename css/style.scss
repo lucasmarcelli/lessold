@@ -92,7 +92,7 @@ body{
 	vertical-align: bottom;
 
 	h2{
-		margin-top: 5px;
+		margin-top: 7px;
 	}
 
 	h4{
@@ -108,7 +108,7 @@ body{
 	display:inline-block;
 	width: 40%;
 	vertical-align: bottom;
-	margin-bottom: 7px;
+	margin-bottom: 10px;
 
 	h1{
 		color: $accent-color;
@@ -126,12 +126,11 @@ body{
 	}
 }
 
-.left-padded {
+.categories-page {
 	vertical-align: middle;
-    padding-bottom: 6px;
+	margin-bottom: 17px;
 
 	 h4 {
-	 	padding-left: 50%;
 	 	text-align: right;
 	}
 }
