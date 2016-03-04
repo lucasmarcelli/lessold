@@ -26,12 +26,12 @@ project: this-website
 </p>
 
 <p>
-	{% highlight scss linenos %}	
-		.content-box{
-			background-color: #5F49C0;
-			/* Other settings */
-		}
-	{% endhighlight %}
+{% highlight scss %}
+	.content-box{
+		background-color: #5F49C0;
+		/* Other settings */
+	}
+{% endhighlight %}
 </p>
 
 <p>
@@ -39,23 +39,23 @@ project: this-website
 </p>
 
 <p>
-	{% highlight scss linenos %}
-		.pager li>a{
-			background-color: #5F49C0;
-		}
-		a.light:hover {
-			background-color: #5F49C0;
-		}
-		li.light:hover{
-			background-color: #5F49C0;
-		}
-		a.dark:hover {
-			background-color: #5F49C0;
-		}
-		li.dark:hover{
-			background-color: #5F49C0;
-		}
-	{% endhighlight %}
+{% highlight scss %}
+	.pager li>a{
+		background-color: #5F49C0;
+	}
+	a.light:hover {
+		background-color: #5F49C0;
+	}
+	li.light:hover{
+		background-color: #5F49C0;
+	}
+	a.dark:hover {
+		background-color: #5F49C0;
+	}
+	li.dark:hover{
+		background-color: #5F49C0;
+	}
+{% endhighlight %}
 </p>
 
 <p>
@@ -63,13 +63,13 @@ project: this-website
 </p>
 
 <p>
-	{% highlight scss linenos %}
-		$content-base-color: #5F49C0;
-		.content-box{
-			background-color: $content-base-color;
-			/* Other settings */
-		}
-	{% endhighlight %}
+{% highlight scss %}
+	$content-base-color: #5F49C0;
+	.content-box{
+		background-color: $content-base-color;
+		/* Other settings */
+	}
+{% endhighlight %}
 </p>
 
 <p>
@@ -81,16 +81,16 @@ project: this-website
 </p>
 
 <p>
-	{% highlight scss linenos %}
-		.project-list {
-			box-shadow: none;
-		}
+{% highlight scss %}
+	.project-list {
+		box-shadow: none;
+	}
 
-		.project-list p {
-			color: white;
-			text-align: justify;
-		}
-	{% endhighlight %}
+	.project-list p {
+		color: white;
+		text-align: justify;
+	}
+{% endhighlight %}
 </p>
 
 <p> 
@@ -102,15 +102,15 @@ project: this-website
 </p>
 
 <p>
-	{% highlight scss linenos %}
-		.project-list {
-			box-shadow: none;
-		 	p {
-				color: $brand-color;
-				text-align: justify;
-			}
+{% highlight scss %}
+	.project-list {
+		box-shadow: none;
+	 	p {
+			color: $brand-color;
+			text-align: justify;
 		}
-	{% endhighlight %}
+	}
+{% endhighlight %}
 </p>
 
 <p>
