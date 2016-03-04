@@ -15,7 +15,7 @@ twitter_username: lucasmarcelli
 github_username:  lucasmarcelli
 
 # Build settings
-markdown: Redcarpet
+markdown: kramdown
 
 highlighter: rouge
 
