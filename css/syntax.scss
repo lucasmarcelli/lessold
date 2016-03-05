@@ -1,7 +1,10 @@
 ---
 ---
-$site-background-color: white;
 $accent: #FFCA6B;
+
+* {
+	tab-size: 3;
+}
 
 .highlight {
 	
@@ -10,16 +13,19 @@ $accent: #FFCA6B;
 	margin-left: auto;
 
 	@media only screen and (min-width:700px){
-		width: 75%;
+		width: 78%;
 	}
 
 	pre{
-		background-color: $site-background-color;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		background-color: white;
+		padding-left: 5%;
 	}
 }
 
 
-.highlight .hll { background-color: $site-background-color }
+.highlight .hll { background-color: white; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #000000; font-weight: bold } /* Keyword */

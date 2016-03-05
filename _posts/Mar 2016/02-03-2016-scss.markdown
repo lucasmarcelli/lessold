@@ -27,10 +27,10 @@ project: this-website
 
 <p>
 {% highlight scss %}
-	.content-box{
-		background-color: #5F49C0;
-		/* Other settings */
-	}
+.content-box{
+	background-color: #5F49C0;
+	/* Other settings */
+}
 {% endhighlight %}
 </p>
 
@@ -40,21 +40,21 @@ project: this-website
 
 <p>
 {% highlight scss %}
-	.pager li>a{
-		background-color: #5F49C0;
-	}
-	a.light:hover {
-		background-color: #5F49C0;
-	}
-	li.light:hover{
-		background-color: #5F49C0;
-	}
-	a.dark:hover {
-		background-color: #5F49C0;
-	}
-	li.dark:hover{
-		background-color: #5F49C0;
-	}
+.pager li>a{
+	background-color: #5F49C0;
+}
+a.light:hover {
+	background-color: #5F49C0;
+}
+li.light:hover{
+	background-color: #5F49C0;
+}
+a.dark:hover {
+	background-color: #5F49C0;
+}
+li.dark:hover{
+	background-color: #5F49C0;
+}
 {% endhighlight %}
 </p>
 
@@ -64,11 +64,11 @@ project: this-website
 
 <p>
 {% highlight scss %}
-	$content-base-color: #5F49C0;
-	.content-box{
-		background-color: $content-base-color;
-		/* Other settings */
-	}
+$content-base-color: #5F49C0;
+.content-box{
+	background-color: $content-base-color;
+	/* Other settings */
+}
 {% endhighlight %}
 </p>
 
@@ -82,14 +82,14 @@ project: this-website
 
 <p>
 {% highlight scss %}
-	.project-list {
-		box-shadow: none;
-	}
+.project-list {
+	box-shadow: none;
+}
 
-	.project-list p {
-		color: white;
-		text-align: justify;
-	}
+.project-list p {
+	color: white;
+	text-align: justify;
+}
 {% endhighlight %}
 </p>
 
@@ -103,13 +103,13 @@ project: this-website
 
 <p>
 {% highlight scss %}
-	.project-list {
-		box-shadow: none;
-	 	p {
-			color: $brand-color;
-			text-align: justify;
-		}
+.project-list {
+	box-shadow: none;
+ 	p {
+		color: $brand-color;
+		text-align: justify;
 	}
+}
 {% endhighlight %}
 </p>
 
