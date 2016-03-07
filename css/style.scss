@@ -54,13 +54,14 @@ body{
 	img {
 		margin-left: auto;
 		margin-right: auto;
-		width: 100%;
+		max-width: 100%;
 		display: block;
 		padding: 15px;
 		padding-bottom: 10px;
 		max-height: 93vh;
 
 		@media only screen and (min-width:700px){
+			max-height: none;
 			width: 85%;
 		}
 	}
@@ -90,17 +91,31 @@ body{
 	color: $off-base-color;
 }
 
+.img-text {
+	text-align: center;
+	color: $off-base-color;
+}
+
 .first{
 	display:inline-block;
-	width: 55%;
+	width: 58%;
 	vertical-align: bottom;
 
 	h2{
+		text-transform: capitalize;
 		margin-top: 7px;
+		font-size: 27px;
+		@media only screen and (min-width:500px){
+			font-size: 30px;
+		}
 	}
 
 	h4{
 		padding-top: 10px;
+		font-size: 13px;
+		@media only screen and (min-width:500px){
+			font-size: 18px;
+		}
 	}
 
 	h6{
@@ -120,7 +135,10 @@ body{
 		text-align: right;
 		margin-bottom: auto;
 		margin-top: 0;
-		font-size: large;
+		font-size: 15px;
+		@media only screen and (min-width:500px){
+			font-size: 18px;
+		}
 	}
 }
 
@@ -128,6 +146,10 @@ body{
 	padding-top: 5px;
 	h2{
 		margin-top: 3px;
+		font-size: 21px;
+		@media only screen and (min-width:500px){
+			font-size: 30px;
+		}
 	}
 }
 
@@ -244,6 +266,7 @@ li.dark:hover, a.dark:hover{
 		text-align: justify;
 		width: 95%;
 		margin-left: 3px;
+
 	}
 }
 
@@ -261,3 +284,9 @@ li.dark:hover, a.dark:hover{
 	background-color: #7C68D4;
 }
 
+.page-title{
+	font-size: 28px;
+	@media only screen and (min-width:500px){
+			font-size: 36px;
+	}
+}
