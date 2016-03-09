@@ -1,6 +1,17 @@
 ---
 layout: post
 title: "Reddit Writing Prompt"
-subtitle: ""
+subtitle: "'Thank You,' he said, surprised to find that he meant it."
 category: nonsense
 ---
+
+<p><i>
+	Gonna try out something, a writing prompt from reddit. This is the first time I've ever done this so be kind. <a href="https://www.reddit.com/r/WritingPrompts/comments/49psxv/wp_thank_you_he_said_surprised_to_find_that_he/">Reddit post.</a>
+</i><p>
+<hr class="old-header">
+<p>
+	"<i>Thank you,</i>" he said, surprised to find that he meant it.
+</p>
+<p>
+	It started going wrong about a year ago for him. His wife was distant, his job was dead-end and his daughter was flying off the rails. What did he do to deserve this? Nothing really. Some people just have bad luck. He put in his hours every day, got his degree, settled down and got a house. Everything was according to plan. Everything was done right. But here he was, life falling apart for no apparent reason.
+</p>
