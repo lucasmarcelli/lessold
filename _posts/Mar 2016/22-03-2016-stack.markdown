@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Stack Overflow is Weird"
+subtitle: "How many votes will I get?"
+category: [coding, nonsense]
+---
+
+<p>
+	I was just checking Stack Overflow when I noticed a little notification on the top bar. I clicked it and saw this:
+</p>
+
+<p class="img-text">
+	<img src="/assets/img/posts/Mar2016/so1.png">
+	Hmmm
+</p>
+
+<p>
+	I got some points for an old question I answered. Wait, does that say 1.2k? Hold on a second... I think I answered this a long time ago...
+</p>
+
+<p class="img-text">
+	<img src="/assets/img/posts/Mar2016/so2.png">
+	125 votes?!?!
+</p>
+
+<p>
+	Does that say 2012? I guess the answer still works if I got a vote <i>yesterday.</i> This one answer is totally and completley responsible for me being in the top 22% of users on Stack Overflow!
+</p>
+
+<p class="img-text">
+	<img src="/assets/img/posts/Mar2016/so3.png">
+	And I've reached 53k views on it
+</p>
+
+<p>
+	I love Stack Overflow though. It's such a wonderful resource, since someone else will have solved your issue most of the time. My top Google click of all time shows how important it is to my day-to-day.
+</p>
+
+<p class="img-text">
+	<img src="/assets/img/posts/Mar2016/so4.png">
+	<a href="https://history.google.com/history/"> Click to see your history! </a>
+</p>
