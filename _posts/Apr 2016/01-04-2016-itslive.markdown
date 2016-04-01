@@ -7,7 +7,7 @@ project: mood-tracker
 ---
 
 <p>
-	The last month or so of my life has been devoted to developing and deploying the alpha of <a href ="mood.marcelli.ca">this project.</a> 
+	The last month or so of my life has been devoted to developing and deploying the alpha of <a href ="http://mood.marcelli.ca">this project.</a> 
 <br>
 	It was really fun to learn Django and stuff from scratch. One thing Django is missing is a good <i> updated </i> tutorial series so I'm thinking of making one based around the creation of this site. It was quite the experience and it's truly great to see something I made on the interwebs.
 
