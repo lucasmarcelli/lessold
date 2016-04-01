@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="/static/CACHE/css/style.f139f1a4f466.css" type="text/css" />
+
+
+    <title>Add Entry</title>
+    
+
+
+<script src="/static/mood/scripts/entry.js"></script>
+ 
+  </head>
+  <body>
+    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+            
+	
+	<form action="" method="post" role="form"><input type='hidden' name='csrfmiddlewaretoken' value='BFvfxXYBMIaLS4h2ObXadp9z61aS8Y1I' />
+			<div class="form-group"> 
+				<div class="dropdown dropdown_tod">
+				  <button class="btn btn-primary dropdown-toggle" id="tod_dropdown" type="button" data-toggle="dropdown">Time of Day 
+				  </button>
+				  <ul class="dropdown-menu">
+				    <li><a href="#" onclick="time_of_day('Morning');return false;">Morning</a></li>
+				    <li><a href="#" onclick="time_of_day('Afternoon');return false;">Afternoon</a></li>
+				    <li><a href="#" onclick="time_of_day('Evening');return false;">Evening</a></li>
+				    <li><a href="#" onclick="time_of_day('Night');return false;">Night</a></li>
+				  </ul>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="outer panel-group equal">
+					<div class="panel panel-default left">
+						<div class="panel-body entry_label">
+							Happiness level
+						</div>
+					</div>
+					<div class="panel panel-default right equal">
+						<div class="slider_gutter panel-body">
+							<div id="slider_happiness_level">
+							</div>
+						<div class="slider_label">
+					<div class="slider_label_inner">
+						Incredibly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Extremely Lowered
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Lowered
+					</div>
+					<div class="slider_label_inner">
+						Slightly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Your Baseline
+					</div>
+					<div class="slider_label_inner">
+						Slightly Raised
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Raised
+					</div>
+					<div class="slider_label_inner">
+						Extremely Raised
+					</div>
+					<div class="slider_label_inner">
+						Incredibly Raised
+					</div>
+				</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="outer">
+					<div class="left">
+						<span class = "label label-primary entry_label">Anger level</span>
+					</div>
+					 <div class="slider_gutter right">
+					 	<div id="slider_anger_level">
+					 	</div>
+					<div class="slider_label">
+					<div class="slider_label_inner">
+						Incredibly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Extremely Lowered
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Lowered
+					</div>
+					<div class="slider_label_inner">
+						Slightly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Your Baseline
+					</div>
+					<div class="slider_label_inner">
+						Slightly Raised
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Raised
+					</div>
+					<div class="slider_label_inner">
+						Extremely Raised
+					</div>
+					<div class="slider_label_inner">
+						Incredibly Raised
+					</div>
+				</div>	
+					</div>
+				</div>
+				</div>
+			<div class="form-group">
+				<div class="outer">
+					<div class="left">
+					 	<span class = "label label-primary entry_label">Anxiety level </span>
+					</div>
+					 <div class="slider_gutter right">
+					 	<div id="slider_anxiety_level">
+					 	</div> 
+					<div class="slider_label">
+					<div class="slider_label_inner">
+						Incredibly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Extremely Lowered
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Lowered
+					</div>
+					<div class="slider_label_inner">
+						Slightly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Your Baseline
+					</div>
+					<div class="slider_label_inner">
+						Slightly Raised
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Raised
+					</div>
+					<div class="slider_label_inner">
+						Extremely Raised
+					</div>
+					<div class="slider_label_inner">
+						Incredibly Raised
+					</div>
+				</div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				 <div class="outer">
+					<div class="left">
+					 	<span class = "label label-primary entry_label">Motivation level </span>
+					</div>
+					 <div class="slider_gutter right">
+					 	<div id="slider_motication_level">
+					 	</div> 
+					<div class="slider_label">
+					<div class="slider_label_inner">
+						Incredibly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Extremely Lowered
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Lowered
+					</div>
+					<div class="slider_label_inner">
+						Slightly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Your Baseline
+					</div>
+					<div class="slider_label_inner">
+						Slightly Raised
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Raised
+					</div>
+					<div class="slider_label_inner">
+						Extremely Raised
+					</div>
+					<div class="slider_label_inner">
+						Incredibly Raised
+					</div>
+				</div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				 <div class="outer">
+					<div class="left">
+					 	<span class = "label label-primary entry_label">Energy level </span>
+					</div>
+					 <div class="slider_gutter right">
+					 	<div id="slider_energy_level">
+					 	</div> 
+					<div class="slider_label">
+					<div class="slider_label_inner">
+						Incredibly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Extremely Lowered
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Lowered
+					</div>
+					<div class="slider_label_inner">
+						Slightly Lowered
+					</div>
+					<div class="slider_label_inner">
+						Your Baseline
+					</div>
+					<div class="slider_label_inner">
+						Slightly Raised
+					</div>
+					<div class="slider_label_inner">
+						Noticeably Raised
+					</div>
+					<div class="slider_label_inner">
+						Extremely Raised
+					</div>
+					<div class="slider_label_inner">
+						Incredibly Raised
+					</div>
+				</div>
+					</div>
+				</div>
+			</div>
+			<select class="entry_field" id="id_tod" name="tod">
+<option value="M">Morning</option>
+<option value="A">Afternoon</option>
+<option value="E">Evening</option>
+<option value="N">Night</option>
+</select>
+			<input class="entry_field" id="id_happiness_level" name="happiness_level" type="text" value="0" />
+			<input class="entry_field" id="id_anger_level" name="anger_level" type="text" value="0" />
+			<input class="entry_field" id="id_anxiety_level" name="anxiety_level" type="text" value="0" />
+			<input class="entry_field" id="id_motivation_level" name="motivation_level" type="text" value="0" />
+			<input class="entry_field" id="id_energy_level" name="energy_level" type="text" value="0" />   
+			<div class="form-group">
+				<input type="submit" value="Save" />
+			</div>
+	</form>
+
+
+	<script>
+	// generate the slider code for each one automatically
+	
+		var slider_val =  $('#id_tod').val();
+		$( "#slider_tod" ).slider({
+			min: -4,
+			max: 4,
+			step: 1,
+		    value: slider_val,   
+		    slide: function( event, ui ) {
+		        $('#id_tod').val(ui.value);
+		    }
+		});
+	
+		var slider_val =  $('#id_happiness_level').val();
+		$( "#slider_happiness_level" ).slider({
+			min: -4,
+			max: 4,
+			step: 1,
+		    value: slider_val,   
+		    slide: function( event, ui ) {
+		        $('#id_happiness_level').val(ui.value);
+		    }
+		});
+	
+		var slider_val =  $('#id_anger_level').val();
+		$( "#slider_anger_level" ).slider({
+			min: -4,
+			max: 4,
+			step: 1,
+		    value: slider_val,   
+		    slide: function( event, ui ) {
+		        $('#id_anger_level').val(ui.value);
+		    }
+		});
+	
+		var slider_val =  $('#id_anxiety_level').val();
+		$( "#slider_anxiety_level" ).slider({
+			min: -4,
+			max: 4,
+			step: 1,
+		    value: slider_val,   
+		    slide: function( event, ui ) {
+		        $('#id_anxiety_level').val(ui.value);
+		    }
+		});
+	
+		var slider_val =  $('#id_energy_level').val();
+		$( "#slider_energy_level" ).slider({
+			min: -4,
+			max: 4,
+			step: 1,
+		    value: slider_val,   
+		    slide: function( event, ui ) {
+		        $('#id_energy_level').val(ui.value);
+		    }
+		});
+	
+		var slider_val =  $('#id_motivation_level').val();
+		$( "#slider_motivation_level" ).slider({
+			min: -4,
+			max: 4,
+			step: 1,
+		    value: slider_val,   
+		    slide: function( event, ui ) {
+		        $('#id_motivation_level').val(ui.value);
+		    }
+		});
+	
+	</script>
+
+
+          </div>
+        </div>
+      </div>
+    
+    
+    
+  </body>
+</html>

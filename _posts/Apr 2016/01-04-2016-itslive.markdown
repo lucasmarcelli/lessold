@@ -1,0 +1,24 @@
+---
+layout: post
+title: "It's Alive! It's finally Alive!"
+subtitle: "Django Development is fun, but deployment is not."
+category: [coding, mental-health]
+project: mood-tracker
+---
+
+<p>
+	The last month or so of my life has been devoted to developing and deploying the alpha of <a href ="mood.marcelli.ca">this project.</a> 
+<br>
+	It was really fun to learn Django and stuff from scratch. One thing Django is missing is a good <i> updated </i> tutorial series so I'm thinking of making one based around the creation of this site. It was quite the experience and it's truly great to see something I made on the interwebs.
+
+</p>
+
+<p>
+	Total development time: 3 weeks, 4 including a week of learning Django.<br>
+	Total deployment time: 1.5 weeks.<br>
+	Yikes.
+<p>
+	The aim of this app is to keep track of your mood and other factors throughout the day. Soon it will also display statistics. The site is in alpha so if you find any bugs either <a href="https://github.com/lucasmarcelli/mood-tracker/issues"> report the issue on github </a> or email me at <a href="mailto:lucas@marcelli.ca">lucas@marcelli.ca</a>
+
+	I hope someone gets some use out of this other than me!
+</p>
