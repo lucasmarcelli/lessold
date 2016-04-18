@@ -22,3 +22,6 @@ highlighter: rouge
 collections:
 - pages
 - projects
+
+gems:
+  - jekyll-redirect-from
