@@ -2,7 +2,7 @@
 layout: post
 title: "Lord of the Rings is Serious"
 subtitle: "Or: 'Why am I even friends with this nerd?'"
-category: [nonsense]
+category: [nonsense, rage]
 ---
 
 <div markdown="1">
