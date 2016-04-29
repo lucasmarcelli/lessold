@@ -1,0 +1,105 @@
+---
+layout: post
+title: "Lord of the Rings is Serious"
+subtitle: "Or: 'Why am I even friends with this nerd?'"
+category: [nonsense]
+---
+
+<div markdown="1">
+I had a bit of fun on Facebook yesterday talking (arguing) about Lord of The Rings in the comments of a Cracked article, aka the height of academic discourse<sup>lol</sup>. I love high fantasy and I've been reading it since I was small. My good friend Rob Staalduinen, who's last name looks like it [*belongs* in a Tolkien novel](/assets/img/posts/apr2016/staad.png) got into a discussion with me about it and it turns out he's almost as into it as I am (lol jk he didn't even read *The Silmarillion*). We decided to cowrite this blog post on a google doc. L is me and R is him. We wrote it paragraph by paragraph so it's really just a transcript of our conversation.
+
+<hr>
+
+L: It’s pretty ridiculous to me that people think they are poking holes in Middle-earth lore. Tolkien wrote the books more than half a century ago, founded an entire genre and academic fields of study have developed around the mythos of middle earth. Every time that damn Cracked article is posted I die a bit inside, but actually get excited because I get to talk about LoTR.
+
+R: The fundamental thing people need to keep in mind is that Tolkien is much, much smarter than us. An author is never infallible, but here’s a guy who created new languages as hobby! I think it’s safe to say he is reasonably detail oriented. Tolkien didn’t just write a story, he crafted a world for that story to plausibly exist, complete with its own cultural and historical context. It’s probably safe to say that if there is a plot hole that you think is obvious, Tolkien thought of, and accounted for it fifty years ago.
+
+L: I definitely don’t see Tolkien as infallible. There’s plenty that could be said in light of modern ideas in fantasy about his use of tropes, but you have to keep in mind he created the tropes! He spent two and a half decades building the idea of high-fantasy world building and internal consistency.
+
+R: But Lucas, EAGLES! Why didn’t they take the Eagles? I are so smart.
+
+L: See you joke about it but the people who say it say it so seriously…
+
+<p class="img-text">
+	<img src="/assets/img/posts/apr2016/eagles.png" title="30 minutes guys seriously">
+</p>
+It’s actually the biggest pet peeve of mine in relation to the series but also the most fun to correct. For the sake of people not *in the know,* the Eagles are essentially minor gods created to serve the direct god in charge of Gandalf: Manwe. Beyond the fact that the Eagles are *vastly* intelligent and *not* little pets, does taking the One Ring, known to corrupt in rough proportion to the power level of the beings bearing it, and flying on the backs of literal gods seem like a good idea to anyone, anywhere?
+
+But honestly why didn’t the eagles drop them a *bit* closer to the mountain? That’s something that should be addressed.
+
+R: If we’re talking about the Lonely Mountain - yeah, that’s a bit of an issue. I think the *generally* stated reason is that they “don’t fly over the realms of men.”
+
+L: I think both mountains are relevant. I guess they were explicitly told to walk the ring the second time… and there’s still the problem of the rings corrupting the Eagles if they’re around them too long. Imagine Sauron got his hands on an Eagle? Melkor/Morgoth cometh.
+
+R: I think the better and more realistic justification for the Lonely Mountain is that the lore *simply wasn’t as developed at the time Tolkien wrote The Hobbit.* This was probably twenty odd years before Lord of the Rings finally come out - which I should point out, necessitated changes to the Hobbit for it to make sense.
+
+L: See that’s what is fundamentally misunderstood by most. Tolkien was so dedicated to his world that he didn’t even see it as untouchable. He went back, he changed things, revised his ideas. He attempted to put his mind into the conceptual framework of God in Middle-earth: **Eru Iluvatar**. Notice the capital-G. Eru is limitless in his abilities to effect anything within or out of Middle-earth, but much prefers not to, instead creating lesser beings to do his will.
+
+R: And before people start to complain, I wouldn’t go so far as to say it’s *impossible* to find a plot hole in Tolkien. The best writers and lore-crafters in the world aren’t perfect. But what gets me is the pointing out of the most surface-level holes, treating them as gaping flaws, and then summarily ignoring the world that Tolkien spent his life building -- a world that explains these holes perfectly.
+
+L: Well, the internet flocks to the low hanging fruit. I thought of that plot hole when I was six and it wasn’t until I read the Silmarillion a good six years later that I had the actual textual answer as to why. In the meantime I came up with other reasons like “well the story can’t be a *story* if they do that” and “the ring corrupts shit, man.” I was *six.*
+
+R: The fact people glaze over most often is the idea that the world Tolkien created has *rules*. Gandalf is a prime example. The constant question of why Gandalf just doesn’t magic them out of tough situations, or use his power to accomplish his ends?
+
+<p class="img-text">
+	<img src="/assets/img/posts/apr2016/gandalf.png" title="MAGIC PLS, IT'S SO SIMPLE GANDALF JUST MAGIC US HELP">
+</p>
+
+This is probably the second most common question I see - right after the eagles. Well, it’s because of the rules governing the Maiar sent to Middle Earth. *Don’t* solve everyone’s problems for them with Magic, you’re a *guide and mentor*. Don’t expect me to bail you out if you’re in trouble. Those colours? Saruman the White, Gandalf the Gray, Radagast the Brown. Those colours are *direct representations* of how much those Maia are allowed to interfere in the affairs of mortals.
+
+L: But *Rob,* The Eagles came to save him when he called them with Magic! He broke both of the rules! *Both of them!1!*
+
+R: Ah yes, ‘don’t solve everyone’s problems’’ must mean ‘no magic ever’ right?
+
+L: It has to be looked at through the lens that this entire series is an exercise in Theology and understanding the motivations of God by a deeply religious man. Men are portrayed as the deeply flawed race that has the only chance of joining **Eru Iluvatar** after death because only flaws can lead to growth. And the whole having the breath of Eru in them. Only men have *The Gift of Men.*
+
+R: Exactly, Tolkien set up the Wizards with common sense *moral* restrictions on how they can use their power. They aren’t able to use their given power and force to intimidate, to gain control, or to otherwise save Middle-earth by their force alone, especially not Gandalf the Gray who doesn’t have access to most of his power. It’s as if it’s a commentary on the dangers of using extreme power for “the right reasons” or “the ends justify the means”. Kinda like he wrote this post WW2 or something...
+
+L: So wait, you’re saying is that asking Manwe to send some Eagles to grab you from a rooftop or fighting a Balrog with your full power isn’t even bending the rules that are being enforced by Manwe? In fact you did so well that post Balrog fight you got what is essentially a job promotion from your *boss’ boss* and significantly reduced the limits placed on your power? **Eru Himself** intervened to bring Gandalf back to life because he was so impressed with the sacrifice to save his companions and the realms of Men.
+
+R: Balrog's do provide +1000XP. He leveled up.
+
+L: The biggest issue after he comes back is honestly that he didn’t do more just like the people are complaining about, ironically. Saruman was shown to be able to do great feats like animate an entire new race of fighters by corrupting the Orcs. Gandalf kinda shines some light on the Nazgul during the fights I guess? I suppose it could be attributed to Gandalf avoiding a fall to corruption in the same way as Saruman by limiting his power despite not being forced to.
+
+R: Can I take a second to say how annoying I found it as a kid that Tolkien named his two villains approximately the same thing?
+
+L: I literally thought they were the same until i was 12 or 13 I think. At least until my 3rd read.
+
+R: In the Two Towers movie, they had to introduce a scene of Faramir pointing at a map, simply because it was hard to tell who was where and who was attacking who.
+
+L: Speaking of changes from the movie can we talk about Tom Bombadil and how we wish he was in the movies.
+
+R: Ah yes, Tom Bombadil. One of the... *stranger* elements of Middle Earth.
+
+I will put forth a contrary opinion -- though I’d love to see him realized in film, I think it was the right choice to leave him out. Tom Bombadil is a highly confusing and cumbersome character, to the point where even Tolkien enthusiasts argue about what his role is, and exactly what he represents.
+
+I think ultimately meeting a strange fellow who speaks in riddles, is unaffected by the ring, and seems unconcerned with… *anything* would have really confused audiences in the early stages of the movie. That’s just me though.
+
+Also, it would lead to one of the stranger conversations about the ring in the book. Where they contemplated asking Tom to take the Ring to Mt. Doom, but were ultimately concerned that he would just… *forget to do it.*
+
+L: I know that in practice Tom Bombadil would not have worked on screen. There isn’t an actor alive that could play the whimsy required to fulfill the effect you feel from the books. Doesn’t stop me from really, really wishing it were possible. I bet it would have gone to [Benedict Cumberswhatshisface](https://www.google.ca/#q=benedict+cumber+whatshisface) or something.
+
+As for his role in the books, I don’t even know what to think. I like to think he’s the physical embodiment of *chill* in Middle-earth. He’s representative of what the characters wish they were able to do: be unaffected by what’s going on and do the things they set to do without impairment.
+
+And yeah, he likely *would* have forgotten about the ring had they given it to him. Given that he is unaffected by it, and is likely impossible to track for Sauron…. Would that have been so bad?
+
+R: Probably. Sauron was getting pretty frightening even without The Ring in his possession. Not destroying it probably wouldn’t have been great for Middle Earth either.
+
+L: He was getting more powerful because the ring was corrupting people, at least the way I saw it. Or is it the other way around?
+
+R: I’m actually not sure on that one. I thought his spirit was just gaining more power and influence over time... but who’s to say.
+
+L: It’s probably both. We’d need to ask Eru or Elrond. Or it might be time for a re-read.
+
+R: Either way, at the time they would have asked Tom, Sauron was MORE than capable of wrecking stuff in Middle Earth. No thanks to the Elves, who were just planning on bailing out to Valinor to chill with the other immortals till the end of time.
+
+L: We should *probably* leave the Elves for some other time or we will be here all day…
+</div>
+
+<hr>
+
+Well I hope someone other than me and Rob enjoyed that. We're probably gonna be doing this again.
+
+I'll get this out of the way too:
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/_CIYR_XgBSY" frameborder="0" allowfullscreen></iframe>
