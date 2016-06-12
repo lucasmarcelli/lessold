@@ -1,63 +1,52 @@
 ---
-layout: page
+layout: default
 title: "Lucas' Blog and Website"
-subtitle: "Sometimes I have a point." 
+subtitle: "Sometimes I have a point."
 ---
-<div class="liquid-code">{% increment x %}</div>
-<ul class="index-list list-group">
-  {% for post in site.posts %}
-  {% if x == 0 %} 
-	  	<li>
-			<a href="{{ post.url }}" class="list-group-item post-items light">
-				<div class="top">
-					<h2>{{ post.title }}</h2>
-				</div>
-				<div class="bottom">
-					<div class="first">
-						<h4>{{ post.subtitle }}</h4>
-						<h6>Posted on {{ post.date | date: '%B %d, %Y' }}</h6>
-					</div>
-					<div class="second">
-						{% for cat in post.category %}
-							<h1> {{ cat | replace: "-" , " " }}</h1>
-						{% endfor %}
-						{% if post.project %}
-							<h1> {{ post.project | replace: "-" , " " }} </h1>
-						{% endif %}
-						{% if post.layout == "old-post" %}
-							<h1> Old site post</h1>
-						{% endif %}
-					</div>
-				</div>
-			</a>
-		</li>
-		<div class="liquid-code">{% increment x %}</div>
-	{% else %}
-		<li>
-			<a href="{{ post.url }}" class="list-group-item post-items dark">
-				<div class="top">
-					<h2>{{ post.title }}</h2>
-				</div>
-				<div class="bottom">
-					<div class="first">
-						<h4>{{ post.subtitle }}</h4>
-						<h6>Posted on {{ post.date | date: '%B %d, %Y' }}</h6>
-					</div>
-					<div class="second">
-						{% for cat in post.category %}
-							<h1> {{ cat | replace: "-" , " " }}</h1>
-						{% endfor %}
-						{% if post.project %}
-							<h1> {{ post.project | replace: "-" , " " }} </h1>
-						{% endif %}
-						{% if post.layout == "old-post" %}
-							<h1> Old site post</h1>
-						{% endif %}
-					</div>
-				</div>
-			</a>
-		</li>
-		<div class="liquid-code">{% decrement x %}</div>
-	{% endif %}
-  {% endfor %}
-</ul>
+
+<div class="upper-retina">
+    <div class="retina-header">
+      <div class="retina-header-text">
+        <h4 class="display-4"> {{ page.title }} </h4>
+        <h3> {{ page.subtitle }} </h3>
+      </div>
+        <div class="row landing-cards">
+          <div class="card-deck-wrapper">
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="{{ site.baseurl }}/assets/img/landing/project.jpg"alt="Cause I work off a Macbook I guess?">
+              <div class="card-block">
+                <h4 class="card-title text-xs-center">My Projects</h4>
+                <p class="card-text">This is where my projects live. It's a good collection of some of my active and past projects. </p>
+                  <div class="row">
+                    <a href="#" class="btn btn-primary project">Projects</a>
+                    <a href="https://github.com/lucasmarcelli?tab=repositories" class="btn btn-primary github">Github</a>
+                  </div>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="{{ site.baseurl }}/assets/img/landing/me.jpg"alt="Professional Photos are Fun!">
+              <div class="card-block">
+                <h4 class="card-title text-xs-center">About Me</h4>
+                <p class="card-text">My Name is Lucas Marcelli. I'm incredibly passionate and love programming, cats and space. I'm looking for employment as a fullstack developer. </p>
+                  <div class="row">
+                    <a href="/assets/files/LucasMarcelli.pdf" class="btn btn-primary resume">Resume</a>
+                    <a href="#" class="btn btn-primary more">Read More</a>
+                  </div>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="{{ site.baseurl }}/assets/img/landing/atom.png"alt="Atom text editor rules.">
+              <div class="card-block">
+                <h4 class="card-title text-xs-center">Blogosite</h4>
+                <p class="card-text">This is my blog. I write about tons of random stuff, mostly in bursts. This is the bulk of my website currently. Enjoy! </p>
+                  <div class="row">
+                    <a href="#" class="btn btn-primary blog">Go to Blog</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+</div>

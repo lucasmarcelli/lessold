@@ -1,2 +1,114 @@
 ---
 ---
+@import "bootstrap";
+@import "colourscheme";
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  @include gradient-vertical($background-colour, $background-colour-end, 0%, 100%);
+
+}
+
+.container{
+  @include make-container();
+
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.upper-retina{
+  @include make-row();
+
+  background: url('{{ site.baseurl }}/assets/img/landing/background.jpg') no-repeat;
+  background-size: cover;
+
+  min-height: 100vh;
+
+  .retina-header{
+    margin-top: 2em;
+    @include make-col();
+    @include make-col-offset(2);
+    @include make-col-span(10);
+
+    .retina-header-text{
+      margin-bottom: 1em;
+    }
+
+    .landing-cards{
+      margin-top: 2em;
+      margin-left: auto;
+      margin-right: auto;
+
+
+      .card-text{
+        text-align: justify;
+        min-height: 200px;
+
+      }
+
+      .card{
+        @include make-col();
+        @include make-col-span(3);
+        min-width: 270px;
+        max-width: 300px;
+        width: 80%;
+        height: 590px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include media-breakpoint-up(md){
+            width: 15em;
+            margin-left: .25em;
+            margin-right: .25em;
+        }
+
+        @include media-breakpoint-up(lg){
+            margin-left: .75em;
+            margin-right: .75em;
+            width: 15em;
+        }
+
+        .card-text{
+          margin-bottom: 0px;
+        }
+
+        .btn{
+          margin: .5em;
+        }
+
+        .resume, .more, .project, .github{
+          @include make-col();
+          @include make-col-span(5);
+          min-width: 30px;
+          padding: 7px;
+
+        }
+
+        .blog{
+          @include make-col();
+          @include make-col-span(5);
+          width: 90%;
+          min-width: 30px;
+        }
+
+
+        .card-img-top{
+          margin-top: 1em;
+          width: 100%;
+          height: 225px;
+
+        }
+      }
+
+    }
+
+    h3{
+      color: #000;
+    }
+
+    h4{
+      color: $retina-text-colour;
+      -webkit-text-stroke: 2px $retina-text-outline;
+    }
+  }
+}
