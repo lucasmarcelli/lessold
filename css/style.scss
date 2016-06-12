@@ -7,13 +7,50 @@ body{
   font-family: 'Open Sans', sans-serif;
   @include gradient-vertical($background-colour, $background-colour-end, 0%, 100%);
 
+  a{
+    color: $link-colour;
+  }
+
 }
 
 .container{
   @include make-container();
+  @include make-min(100vh);
 
   max-width: 100%;
-  min-height: 100vh;
+}
+
+.landing-about{
+  @include make-row();
+  @include make-min(100vh);
+
+  p, h1{
+    color: $landing-text-color;
+  }
+
+  .about-content{
+    @include make-col();
+    @include make-col-offset(1);
+    @include make-col-span(10);
+    margin-top: 2em;
+
+    .about-pic{
+      @include make-row();
+
+      img{
+        @include make-col();
+        @include make-col-offset(3);
+        @include make-col-span(7);
+
+        @include media-breakpoint-up(lg){
+          margin-top: -2.5em;
+        }
+      }
+
+    }
+
+  }
+
 }
 
 .upper-retina{
@@ -22,27 +59,22 @@ body{
   background: url('{{ site.baseurl }}/assets/img/landing/background.jpg') no-repeat;
   background-size: cover;
 
-  min-height: 100vh;
 
   .retina-header{
     margin-top: 2em;
     @include make-col();
     @include make-col-offset(2);
     @include make-col-span(10);
+    @include make-min(100vh);
 
     .retina-header-text{
       margin-bottom: 1em;
     }
 
     .landing-cards{
-      margin-top: 2em;
-      margin-left: auto;
-      margin-right: auto;
-
 
       .card-text{
-        text-align: justify;
-        min-height: 200px;
+        margin: .3335em;
 
       }
 
@@ -52,7 +84,7 @@ body{
         min-width: 270px;
         max-width: 300px;
         width: 80%;
-        height: 590px;
+        height: 550px;
         margin-left: auto;
         margin-right: auto;
 
@@ -69,11 +101,12 @@ body{
         }
 
         .card-text{
-          margin-bottom: 0px;
+          margin-bottom: 2.3em;
         }
 
         .btn{
-          margin: .5em;
+          margin-left: .5em;
+          margin-right: .5em;
         }
 
         .resume, .more, .project, .github{
